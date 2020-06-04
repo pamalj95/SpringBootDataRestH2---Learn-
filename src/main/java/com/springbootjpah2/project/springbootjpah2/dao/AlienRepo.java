@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
+//@RepositoryRestResourse(collectionResourseRel="aliens", path="aliens") //Without controller
 public interface AlienRepo extends JpaRepository<Alien, Integer> {
 
     List<Alien> findByTech(String aTech);
