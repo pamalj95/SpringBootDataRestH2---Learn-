@@ -1,0 +1,18 @@
+in resourse.properties
+
+prefix = /pages
+suffix = .jsp
+
+--------------------------
+
+@componenet
+class A
+
+@Controller
+public class contr
+
+@RequestMapping
+public String home(@RequestParam() String myName, HttpSession session){
+	
+	return home;
+}
