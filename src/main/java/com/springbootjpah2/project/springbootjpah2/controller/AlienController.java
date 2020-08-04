@@ -23,7 +23,7 @@ public class AlienController {
 
     @PostMapping(path = "/addAlien", consumes = {"application/json"})
     public Alien addAlien(@RequestBody Alien alien) {
-        System.out.println(alien);
+        System.out.println(alien + "Alien");
         repo.save(alien);
         //return "home.jsp";
         return alien;
