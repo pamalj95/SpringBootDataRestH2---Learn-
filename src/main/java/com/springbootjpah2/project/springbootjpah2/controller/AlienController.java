@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
 import java.util.Optional;
 
-//@Controller //Then mention each returning responsebody (json)
+//@Controller //Then mention each returning responsebody (json) worked
 @RestController
 public class AlienController {
 
