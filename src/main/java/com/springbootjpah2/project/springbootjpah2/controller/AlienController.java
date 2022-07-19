@@ -44,7 +44,7 @@ public class AlienController {
     }
 
     @GetMapping(path="/aliens", produces = {"application/xml","application/json"})
-    //@ResponseBody //No need because @RestController
+    //@ResponseBody //No need because @RestController.
     public List<Alien> getAliens() {
         return repo.findAll();
     }
