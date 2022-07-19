@@ -29,7 +29,7 @@ public class AlienController {
         return alien;
     }
 
-    //@RequestMapping("/getAlien") // Default 'Get', but better to mention.
+    //@RequestMapping("/getAlien") // Default 'Get', but better to mention. is done
     @GetMapping("/getAlien")
     public ModelAndView getAlien(@RequestParam int aId) {
         ModelAndView mv = new ModelAndView("showAlien.jsp");
